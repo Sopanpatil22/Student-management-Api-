@@ -1,0 +1,81 @@
+[
+  {
+    "ContainingType": "StudentSystemAsg.Controllers.StudentsApiController",
+    "Method": "GetAll",
+    "RelativePath": "api/StudentsApi",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentSystemAsg.Controllers.StudentsApiController",
+    "Method": "Create",
+    "RelativePath": "api/StudentsApi",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "student",
+        "Type": "StudentSystemAsg.Models.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentSystemAsg.Controllers.StudentsApiController",
+    "Method": "Get",
+    "RelativePath": "api/StudentsApi/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentSystemAsg.Controllers.StudentsApiController",
+    "Method": "Update",
+    "RelativePath": "api/StudentsApi/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "student",
+        "Type": "StudentSystemAsg.Models.Student",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "StudentSystemAsg.Controllers.StudentsApiController",
+    "Method": "Delete",
+    "RelativePath": "api/StudentsApi/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
